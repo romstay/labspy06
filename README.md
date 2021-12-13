@@ -55,7 +55,7 @@ def menu():
         menu()
 ```
 - berikut tampilan ketika program dijalankan
-![Gambar1](ss/ss1.png)
+![Gambar2](ss/ss1.png)
 - dengan ketentuan jika kita menekan angka 1 pada keyboard, maka akan menambah data, dan angka 2 akan menampilkan data, angka 3 akan meng-ubah data (nama), dan angka 4 akan menghapus data yang kita inginkan
 - code dibawah untuk membuat fungsi tambah yang ada dalam program ini
 ```python
@@ -89,7 +89,7 @@ def tambah():
     menu()
 	```
 - berikut tampilan ketika program dijalankan
-![Gambar2](ss/ss2.png)
+![Gambar3](ss/ss2.png)
 - Code dibawah adalah untuk membuat fungsi tampilkan yang ada dalam program ini
 ```python
 def tampilkan():
@@ -109,7 +109,7 @@ def tampilkan():
     menu()
 	```
 - berikut tampilan ketika program dijalankan
-![Gambar3](ss/ss3.png)
+![Gambar4](ss/ss3.png)
 - Code dibawah adalah untuk membuat fungsi merubah nama pada program ini, dengan ketentuan jika kita menekan angka 3 pada keyboard, maka akan muncul konfirmasi dan mengharuskan kita untuk menekan huruf B pada keyboard, dan setelah itu juga kita akan di haruskan menginputkan nomor urut list yang ada di program yang telah kita tampung, dan list tersebut dimulai dengan angka 0 adalah untuk list pertama, dan seterusnya
 ```python
 def ubah():
@@ -125,9 +125,9 @@ def ubah():
     menu()
 	```
 - berikut tampilan ketika program dijalankan
-![Gambar4](ss/ss4.png)
+![Gambar5](ss/ss4.png)
 - berikut tampilan ketika program dijalankan, setelah adanya perubahan data pada nomor urut 1 dan penambahan data untuk nomor urut 2
-![Gambar5](ss/ss5.png)
+![Gambar6](ss/ss5.png)
 - Code dibawah adalah untuk membuat fungsi hapus data yang sudah tertampung di dalam program, sama hal nya dengan fungsi ubah, kita harus memasukkan nomor urut list data yang ada di dalam program, yang kemudian akan di eksekusi penghapusan data. jika nomor urut yang kita inputkan ternyata tidak ada di dalam program, maka akan muncul peringatan NIM Tidak Ada.
 ```python
 def hapus():
@@ -154,9 +154,9 @@ def hapus():
     menu()
 	```
 - berikut tampilan ketika program dijalankan
-![Gambar6](ss/ss6.png)
+![Gambar7](ss/ss6.png)
 - berikut tampilan ketika program dijalankan, dan menghapus data pada nomor urut 0 maka akan menghasilkan tampilan seperti dibawah
-![Gambar7](ss/ss7.png)
+![Gambar8](ss/ss7.png)
 - Code dibawah untuk fungsi pilihan selesai, jika kita sudah selesai, dan menekan angka 5 pada keyboard sesuai ketentuan pada fungsi menu, maka akan menyelesaikan program, tetapi tidak akan menutup program
 ```python
 def selesai():
