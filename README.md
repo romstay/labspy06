@@ -6,13 +6,10 @@ Repository ini adalah isi praktikum dalam penggunaan function pada python
 ![gambar1](ss/ss8.png)
 
 - Dibawah ini adalah code untuk meng-import, karena kita akan gunakan system, untuk mendapatkan clear screen yang ada dalam system os, jika kita perhatikan, disetiap function yang kita buat, terdapat syntax system('cls'), syntax tersebut lah yang kita gunakan dalam hal import system ini. maka kita import terlebih dahulu, berikut code nya:
-
 ```python
 from os import system
 ```
-
 - Dibawah ini code untuk membuat list yang akan kita gunakan, karena program yang akan kita buat adalah program daftar nilai mahasiswa, maka kita buat terlebih dahulu list nya
-
 ```python
 s_nama = []
 s_nim = []
@@ -21,18 +18,14 @@ s_uts = []
 s_uas = []
 s_akhir = []
 ```
-
 - Dibawah ini code untuk membuat fungsi judul, karena didalam fungsi, kita dapat memanggil fungsi tersebut berkali-kali tanpa harus mengulang codingannya, hanya perlu dengan cara memanggil fungsi ( contohnya: fungsi() ), setiap kita akan membuat fungsi, maka harus di awali dengan def dan diikuti dengan nama fungsi yang akan kita buat dan gunakan selanjutnya.
-
 ```python
 def judul():
     print('==================================')
     print('|     Daftar Nilai Mahasiswa     |')
     print('==================================')
 ```
-
 - Dibawah adalah code untuk membuat fungsi menu
-
 ```python
 def menu():
     system('cls')
@@ -61,14 +54,10 @@ def menu():
         system('cls')
         menu()
 ```
-
 - berikut tampilan ketika program dijalankan
 ![Gambar1](ss/ss1.png)
-
 - dengan ketentuan jika kita menekan angka 1 pada keyboard, maka akan menambah data, dan angka 2 akan menampilkan data, angka 3 akan meng-ubah data (nama), dan angka 4 akan menghapus data yang kita inginkan
-
 - code dibawah untuk membuat fungsi tambah yang ada dalam program ini
-
 ```python
 def tambah():
     system('cls')
@@ -99,12 +88,9 @@ def tambah():
     kembali = input('Kembali [Enter]')
     menu()
 	```
-
 - berikut tampilan ketika program dijalankan
 ![Gambar2](ss/ss2.png)
-
 - Code dibawah adalah untuk membuat fungsi tampilkan yang ada dalam program ini
-
 ```python
 def tampilkan():
     system('cls')
@@ -122,12 +108,9 @@ def tampilkan():
     kembali = input('Kembali Tekan [Enter]')
     menu()
 	```
-
 - berikut tampilan ketika program dijalankan
 ![Gambar3](ss/ss3.png)
-
 - Code dibawah adalah untuk membuat fungsi merubah nama pada program ini, dengan ketentuan jika kita menekan angka 3 pada keyboard, maka akan muncul konfirmasi dan mengharuskan kita untuk menekan huruf B pada keyboard, dan setelah itu juga kita akan di haruskan menginputkan nomor urut list yang ada di program yang telah kita tampung, dan list tersebut dimulai dengan angka 0 adalah untuk list pertama, dan seterusnya
-
 ```python
 def ubah():
     rubah = input('Ubah Biodata Tekan [B]   : ')
@@ -141,15 +124,11 @@ def ubah():
     kembali = input('Kembali Tekan [Enter]')
     menu()
 	```
-
 - berikut tampilan ketika program dijalankan
 ![Gambar4](ss/ss4.png)
-
 - berikut tampilan ketika program dijalankan, setelah adanya perubahan data pada nomor urut 1 dan penambahan data untuk nomor urut 2
 ![Gambar5](ss/ss5.png)
-
 - Code dibawah adalah untuk membuat fungsi hapus data yang sudah tertampung di dalam program, sama hal nya dengan fungsi ubah, kita harus memasukkan nomor urut list data yang ada di dalam program, yang kemudian akan di eksekusi penghapusan data. jika nomor urut yang kita inputkan ternyata tidak ada di dalam program, maka akan muncul peringatan NIM Tidak Ada.
-
 ```python
 def hapus():
     system('cls')
@@ -174,21 +153,15 @@ def hapus():
     kembali = input('Kembali Tekan [Enter]')
     menu()
 	```
-
 - berikut tampilan ketika program dijalankan
 ![Gambar6](ss/ss6.png)
-
 - berikut tampilan ketika program dijalankan, dan menghapus data pada nomor urut 0 maka akan menghasilkan tampilan seperti dibawah
 ![Gambar7](ss/ss7.png)
-
 - Code dibawah untuk fungsi pilihan selesai, jika kita sudah selesai, dan menekan angka 5 pada keyboard sesuai ketentuan pada fungsi menu, maka akan menyelesaikan program, tetapi tidak akan menutup program
-
 ```python
 def selesai():
     system('cls')
     menu()
-
 menu()
 ```
-
 # Sekian praktikum function pada python ini di buat, Terima kasih.
