@@ -87,6 +87,7 @@ def tambah():
 	```
 
 - berikut tampilan ketika program dijalankan
+
 ![Gambar3](ss/ss2.png)
 
 - Code dibawah adalah untuk membuat fungsi tampilkan yang ada dalam program ini
