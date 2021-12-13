@@ -69,20 +69,16 @@ def tambah():
     s_nama.append(nama)
     nim = input('NIM       : ')
     s_nim.append(nim)
-
     system('cls')
     judul()
     print('Tambah Data'.center(40))
     print('==================================')
     tugas = float(input('Nilai Tugas    : '))
     s_tugas.append(tugas)
-
     uts = float(input('Nilai UTS        : '))
     s_uts.append(uts)
-
     uas = float(input('Nilai UAS        : '))
-    s_uas.append(uas)
-
+    s_uas.append(uas
     total = tugas * 0.30 + uts * 0.35 + uas * 0.35
     s_akhir.append(total)
     print('Data Tersimpan'.center(40))
@@ -98,9 +94,7 @@ def tambah():
 def tampilkan():
     system('cls')
     judul()
-
     for i in range(len(s_nim)):
-
         print('%d. Nama         : %s'%(i+0, s_nama[i]))
         print('    NIM          : %s'%s_nim[i])
         print('    Nilai Tugas  : %.2f'%s_tugas[i])
