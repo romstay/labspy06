@@ -56,6 +56,7 @@ def menu():
 ```
 - berikut tampilan ketika program dijalankan
 ![Gambar2](ss/ss1.png)
+
 - dengan ketentuan jika kita menekan angka 1 pada keyboard, maka akan menambah data, dan angka 2 akan menampilkan data, angka 3 akan meng-ubah data (nama), dan angka 4 akan menghapus data yang kita inginkan
 - code dibawah untuk membuat fungsi tambah yang ada dalam program ini
 ```python
@@ -88,8 +89,10 @@ def tambah():
     kembali = input('Kembali [Enter]')
     menu()
 	```
+
 - berikut tampilan ketika program dijalankan
 ![Gambar3](ss/ss2.png)
+
 - Code dibawah adalah untuk membuat fungsi tampilkan yang ada dalam program ini
 ```python
 def tampilkan():
